@@ -1,0 +1,123 @@
+@import url(http://awebfont.ir/css?id=1116);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'B Yekan', tahoma, Arial;
+    width: 90%;
+    margin: 0 auto;
+    background: linear-gradient(to top, #ccecff , #fff );
+}
+.container {
+    width: 100%;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header-right {
+    display: flex;
+    align-items: center;
+}
+.header-right img {
+    background-color: #0c97e9;
+}
+.menu-list {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    margin-right: 15px;
+}
+.menu-item {
+    padding: 0 15px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+}
+.header-left p {
+    padding: 0 10px;
+    color: #0c97e9;
+}
+.header-left .login {
+    background-color: #0c97e9;
+    color:#fff;
+    border-radius: 12px;
+    padding: 8px 20px;
+}
+.header-bottom {
+    display :flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+.header-bottom-right {
+    padding: 20px 0;
+    width: 40%;
+}
+.header-bottom-right h2 {
+    padding: 12px 0;
+    color: #0c97e9;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+}
+.header-bottom-right .desc {
+    padding: 12px 0;
+    color: #0c97e9;
+    font-weight: bold;
+}
+.header-bottom-right .desc {
+    padding: 12px 0;
+    text-align: justify;
+}
+.header-bottom-left {
+    padding: 20px 0;
+    margin: auto;
+}
+.section1 h2 {
+    text-align: center;
+    padding: 40px;
+}
+.section1 .cards {
+    display: flex;
+    padding: 30px;
+
+}
+.card-item {
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #0c97e9;
+    border-radius: 14px;
+    position: relative;
+}
+.card-item h3 {
+    background-color: #0c97e9;
+    color: #fff;
+    border-radius: 14px;
+    padding: 8px 14px;
+    position: absolute;
+    left: 100px;
+    top: -20px;
+}
+.card-item p {
+    margin-top: 15px;
+    text-align: justify;
+}
+.header-bottom:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+}
+.socials {
+    font-size: 50px;
+    margin-top: 70px;
+}
